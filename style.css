@@ -1,0 +1,92 @@
+/* General reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Styling for the navigation bar */
+nav {
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the canvas */
+.canvas {
+    text-align: center;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 2em;
+}
+
+/* Styling for the buttons */
+.button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#white {
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+/* Styling for headings */
+h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-top: 1.5em;
+    color: #666;
+}
+
+h2 span {
+    color: #333;
+    font-weight: bold;
+}
